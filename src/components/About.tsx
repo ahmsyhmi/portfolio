@@ -19,7 +19,7 @@ export default function About() {
     }, []);
     
     return (
-        <div className={`flex flex-col bg-black h-full w-full text-white p-5 transition-all duration-500 ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-0'}`}>
+        <div className={`flex flex-col bg-black h-full w-full text-white p-4 transition-all duration-500 ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-0'}`}>
             <div className="border-4 p-3">
                 <ul>
                     <li>
