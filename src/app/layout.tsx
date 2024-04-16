@@ -5,12 +5,14 @@ import "./globals.css";
 const insco = Inconsolata(
   { subsets: ["latin"], 
     variable: "--font-insco",
+    display: "swap",
     weight: ['200','300','500','700'],
   });
 
 const honk = Honk(
     { subsets: ["latin"],
       variable: "--font-honk",
+      display: "swap",
       weight: ['400'],
     });
 
