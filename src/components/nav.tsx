@@ -10,7 +10,7 @@ export default function Nav() {
                 </li>
             </ul>
 
-            <ul className="flex justify-center md:justify-end space-x-6 text-green-400 text-xl">
+            <ul className="flex justify-center md:justify-end space-x-6 text-green-400 text-xl font-bold">
                 <li>
                     <a href="#" className="">
                         About.txt
