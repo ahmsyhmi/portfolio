@@ -1,4 +1,5 @@
 "use client";
+import { useState, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import pPic from '../assets/profile.png';
 import Image from 'next/image';
@@ -7,8 +8,18 @@ import { MdOutlineMail } from "react-icons/md";
 import { RiTelegramLine } from "react-icons/ri";
 
 export default function About() {
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsVisible(true);
+        }, 500);
+
+        return () => clearTimeout(timer);
+    }, []);
+    
     return (
-        <div className="flex flex-col bg-black h-full w-full text-white p-5">
+        <div className={`flex flex-col bg-black h-full w-full text-white p-5 transition-all duration-500 ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-0'}`}>
             <div className="border-4 p-3">
                 <ul>
                     <li>
@@ -52,7 +63,7 @@ export default function About() {
                     </li>
                 </ul>
             </div>
-            <div className="flex justify-center space-x-80">
+            <div className={`flex justify-center space-x-80 transition-all duration-500 ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-0'}`}>
                 <div className="space-y-3 pt-8 ">
                     <ul className='flex flex-row space-x-2  items-center'>
                         <li>
