@@ -34,10 +34,10 @@ export default function About() {
                           <br />
                       </span>
                       <p className="pt-3 px-32 text-xl font-insco text-justify">
-                          Greetings! I'm Ahmad Syahmi bin Mohd Jaafar, a 25-year-old enthusiast from Terengganu. My journey into the realm of technology began with web development, where I honed my skills crafting digital experiences. However, my curiosity and eagerness to explore led me to pivot towards Linux support and system administration.
+                          Greetings! I&apos;m Ahmad Syahmi bin Mohd Jaafar, a 25-year-old enthusiast from Terengganu. My journey into the realm of technology began with web development, where I honed my skills crafting digital experiences. However, my curiosity and eagerness to explore led me to pivot towards Linux support and system administration.
                       </p>
                       <p className="pt-3 px-32 text-xl font-insco text-justify">My passion for Linux and programming is the driving force behind my career shift. Delving into the intricacies of Linux systems fuels my desire to become proficient in system administration. I find joy in unraveling the complexities of operating systems and leveraging programming to optimize their functionality.</p>
-                      <p className="pt-3 px-32 text-xl font-insco text-justify">Beyond the confines of technology, I am an avid sports enthusiast. Whether it's playing football or engaging in a thrilling game of futsal, I find solace and excitement on the field. Additionally, I immerse myself in the world of cybersecurity through Capture The Flag (CTF) challenges on platforms like HackerOne. The thrill of ethical hacking not only sharpens my problem-solving skills but also underscores my commitment to cybersecurity principles.</p>
+                      <p className="pt-3 px-32 text-xl font-insco text-justify">Beyond the confines of technology, I am an avid sports enthusiast. Whether it&apos;s playing football or engaging in a thrilling game of futsal, I find solace and excitement on the field. Additionally, I immerse myself in the world of cybersecurity through Capture The Flag (CTF) challenges on platforms like HackerOne. The thrill of ethical hacking not only sharpens my problem-solving skills but also underscores my commitment to cybersecurity principles.</p>
                   </li>
               </ul>
         </div>
