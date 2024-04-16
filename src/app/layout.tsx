@@ -1,8 +1,18 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inconsolata,Honk } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const insco = Inconsolata(
+  { subsets: ["latin"], 
+    variable: "--font-insco",
+    weight: ['200','300','500','700'],
+  });
+
+const honk = Honk(
+    { subsets: ["latin"],
+      variable: "--font-honk",
+      weight: ['400'],
+    });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${insco.variable} ${honk.variable}`}>{children}</body>
     </html>
   );
 }
