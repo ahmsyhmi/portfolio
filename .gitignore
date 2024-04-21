@@ -34,5 +34,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-public/node-v20.12.2-x64.msi
-public/putty-64bit-0.81-installer.msi
