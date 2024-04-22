@@ -40,7 +40,7 @@ export default function About() {
                     <li className="flex flex-col pt-3 text-5xl font-honk items-center">
                         <span>Ahmad Syahmi</span>
                         <p className="pt-3 px-4 md:px-32 text-[20px] font-insco text-justify">
-                            Greetings! I&apos;m Ahmad Syahmi bin Mohd Jaafar, a 25-year-old enthusiast from Terengganu. My journey into
+                            Greetings! I&apos;m Ahmad Syahmi bin Mohd Jaafar, a 25-year-old enthusiast from Terengganu,Malaysia. My journey into
                             the realm of technology began with web development, where I honed my skills crafting digital experiences.
                             However, my curiosity and eagerness to explore led me to pivot towards Linux support and system
                             administration.
