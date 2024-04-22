@@ -3,9 +3,7 @@ import { useState, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import pPic from '../assets/profile.png';
 import Image from 'next/image';
-import { FaGithubSquare, FaLinkedin, FaInstagramSquare, FaWhatsapp } from "react-icons/fa";
-import { MdOutlineMail } from "react-icons/md";
-import { RiTelegramLine } from "react-icons/ri";
+
 
 export default function About() {
     const [isVisible, setIsVisible] = useState(false);
@@ -56,7 +54,7 @@ export default function About() {
                         <p className="pt-3 px-4 md:px-32 text-[20px] font-insco text-justify">
                             Beyond the confines of technology, I am an avid sports enthusiast. Whether it&apos;s playing football or
                             engaging in a thrilling game of futsal, I find solace and excitement on the field. Additionally, I immerse
-                            myself in the world of cybersecurity through Capture The Flag (CTF) challenges on platforms like HackerOne.
+                            myself in the world of cybersecurity through Capture The Flag (CTF) challenges on platforms like TryHackMe.
                             The thrill of ethical hacking not only sharpens my problem-solving skills but also underscores my
                             commitment to cybersecurity principles.
                         </p>
