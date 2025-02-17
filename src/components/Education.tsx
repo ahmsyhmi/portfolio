@@ -53,9 +53,7 @@ export default function Education() {
                         <div className="mb-1">
                             <span className="text-green-500">$</span>
                             <span className="mx-2">CGPA:</span>
-                            <span className="text-blue-500">3.20 (current)</span>
-                            <span className="text-green-500">,</span>
-                            <span className="text-blue-500">3.25 (Expected)</span>
+                            <span className="text-blue-500">3.28</span>
                             
                         </div>
                     </div>
