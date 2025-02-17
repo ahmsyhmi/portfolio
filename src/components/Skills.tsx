@@ -54,12 +54,16 @@ export default function Skills(){
                         <span className="text-green-500">,</span>
                         <span className="text-blue-500">Node.js</span>
                         <span className="text-green-500">,</span>
+                        <span className="text-blue-500">Next.js</span>
+                        <span className="text-green-500">,</span>
                         <span className="text-blue-500">React</span>
                     </div>
                     <div className="mb-1">
                         <span className="text-green-500">$</span>
                         <span className="mx-2">Tools :</span>
                         <span className="text-blue-500">WSL</span>
+                        <span className="text-green-500">,</span>
+                        <span className="text-blue-500">Docker</span>
                         <span className="text-green-500">,</span>
                         <span className="text-blue-500">VMWare</span>
                         <span className="text-green-500">,</span>
@@ -74,8 +78,6 @@ export default function Skills(){
                         <span className="text-blue-500">PuTTY</span>
                         <span className="text-green-500">,</span>
                         <span className="text-blue-500">TablePlus</span>
-                        <span className="text-green-500">,</span>
-                        <span className="text-blue-500">SSMS</span>
                     </div>
                     <div className="mb-1">
                         <span className="text-green-500">$</span>
