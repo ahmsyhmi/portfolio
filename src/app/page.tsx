@@ -5,7 +5,6 @@ import Skills from "@/components/Skills";
 import Education from "@/components/Education";
 import ContactMe from '@/components/ContactMe';
 import Certificates from '@/components/Certificates';
-import Project from '@/components/Project';
 import Nav from "@/components/nav";
 
 
@@ -26,9 +25,6 @@ export default function Home() {
         </div>
         <div>
           <Certificates />
-        </div>
-        <div>
-          <Project />
         </div>
       </div>
     </div>
