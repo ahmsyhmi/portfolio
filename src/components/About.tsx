@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import pPic from '../assets/profile.png';
+import pPic from '../assets/profile.jpg';
 import Image from 'next/image';
 
 
